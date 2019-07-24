@@ -2,7 +2,7 @@
   "name": "smart-contract-loader",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "/src/index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=dev  NODE_PATH=. nodemon --exec babel-node ./src/index.js",
     "build": "babel src --out-dir ./dist --source-maps",
@@ -10,9 +10,13 @@
     "test": "./node_modules/.bin/mocha --compilers js:@babel/register",
     "debug": "node --inspect-brk ./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "smartcontract",
+    "truffle",
+    "ethereum"
+  ],
+  "author": "Shivam Sinha",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
@@ -35,13 +39,6 @@
     "type": "git",
     "url": "git+https://github.com/shivamsinha15/SmartContractLoader"
   },
-  "keywords": [
-    "smartcontract",
-    "truffle",
-    "ethereum"
-  ],
-  "author": "Shivam Sinha",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shivamsinha15/SmartContractLoader/issues"
   }
