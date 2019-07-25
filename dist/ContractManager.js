@@ -57,6 +57,11 @@ function () {
       return contract;
     }
   }, {
+    key: "getContracts",
+    value: function getContracts() {
+      return this.contracts;
+    }
+  }, {
     key: "decodeLogs",
     value: function decodeLogs(eventName, txReceipt) {
       var event;

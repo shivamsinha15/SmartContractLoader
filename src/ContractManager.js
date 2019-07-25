@@ -29,6 +29,10 @@ export default class ContractManager {
         return contract;  
     }
 
+    getContracts() {
+        return this.contracts;
+    }
+
     decodeLogs (eventName, txReceipt) {
         let event;
         let decoded = (abiDecoder.decodeLogs(txReceipt.logs))
