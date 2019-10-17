@@ -1,6 +1,6 @@
 {
   "name": "smart-contract-loader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -32,8 +32,7 @@
     "cross-env": "^5.2.0",
     "dotenv-flow": "^3.0.0",
     "ethers": "^4.0.33",
-    "require-all": "^3.0.0",
-    "web3": "^1.2.0"
+    "require-all": "^3.0.0"
   },
   "repository": {
     "type": "git",

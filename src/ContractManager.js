@@ -29,6 +29,10 @@ export default class ContractManager {
         return contract;  
     }
 
+    getWallet(){
+        return this.wallet;
+    }
+
     getContracts() {
         return this.contracts;
     }
